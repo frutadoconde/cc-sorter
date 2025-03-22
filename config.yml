@@ -1,0 +1,95 @@
+source_directory: "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Unsorted" #change this to the full path of the folder with your unsorted CC here. if you're on windows, replace the path's backward slashes (\) with forward ones (/) in all of the paths in this file, like in the examples.
+categories:
+  "accessories": #you can add or delete any categories. If you do, be sure sure to follow the format exactly. when you add one, the easiest way is to copy one of the existing categories, paste it at the bottom (making sure its like the others) and then edit the details.
+    "keywords": #add or delete keywords in this section.
+        - necklace
+        - ring
+        - nails
+        - belt
+        - glove
+        - tights
+        - socks
+        - bracelet
+        - choker
+        - glasses
+        - scarf
+        - piercing
+        - legwarmers
+        - hoops
+        - stockings
+        - purse
+        - bag
+    "folder_path": "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Accessories" #you can also change each of these to the paths of your existing corresponding CC folders for the category. if left as is and the specified folders don't exist, they will be created automatically.
+  "bottoms":
+    "keywords":
+        - bottom
+        - skirt
+        - shorts
+        - pant
+        - jeans
+        - cargos
+        - trouser
+    "folder_path": "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Bottoms"
+  "fullbody":
+    "keywords":
+        - dress
+        - gown
+        - jumper
+        - overalls
+        - onesie
+        - suit
+        - robe
+        - leotard
+        - outfit
+    "folder_path": "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Fullbody"
+  "headwear":
+    "keywords":
+        - hat
+        - headband
+        - headscarf
+        - beanie
+        - durag
+        - bow
+        - hijab
+        - beret
+        - baseball
+        - bandanna
+    "folder_path": "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Headwear"
+  "shoes":
+    "keywords":
+        - shoe
+        - sandal
+        - heel
+        - boot
+        - sneaker
+        - slipper
+        - platform
+        - pumps
+        - mules
+        - flats
+        - wedge
+        - loafer
+        - moccasin
+        - stiletto
+        - trainers
+    "folder_path": "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Shoes"
+  "tops":
+    "keywords":
+        - top
+        - shirt
+        - cardigan
+        - sweater
+        - turtleneck
+        - jacket
+        - bralet
+        - blouse
+        - blazer
+        - vest
+        - coat
+        - hoodie
+        - halter
+        - tank
+        - puffer
+        - polo
+        - bolero
+    "folder_path": "C:/Users/%USERPROFILE%/Documents/Electronic Arts/The Sims 4/Mods/Tops"
