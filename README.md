@@ -2,6 +2,7 @@
 *simple python script to automatically organize custom content into category folders based on filename keywords.*
 
 i originally made this for myself, but figured it was good and useful enough to share. the script looks over cc filenames and sorts them into folders based on keywords that correspond to the most common cc categories (for example: a file named "(creator)demi_skirt" will be moved into the "bottoms folder). 
+
 initially there are only categories for cas cc, but you can customize the categories and keywords by editing the config file, so it's pretty flexible and works with most cc folder setups.
 
 this script has been tested on windows and linux, and while i have no way to test it, it should on principle work on mac.
