@@ -21,8 +21,12 @@ def move_files(source_dir, categories):
                 for keyword in details["keywords"]:
                     if keyword.lower() in filename.lower():
                         destination_folder = details["folder_path"]
-                        shutil.move(file_path, os.path.join(destination_folder, filename))
-                        print(f"Moved '{filename}' to '{destination_folder}'")
+                        destination_path = os.path.join(destination_folder, filename)
+                        if os.path.exists(destination_path):
+                            print(f"Skipped '{filename}' (already exists in '{destination_folder}')")
+                        else:
+                            shutil.move(file_path, destination_path)
+                            print(f"Moved '{filename}' to '{destination_folder}'")
                         break
 
 move_files(source_directory, categories)
